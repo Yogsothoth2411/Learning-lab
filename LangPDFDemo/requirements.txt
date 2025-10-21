@@ -3,15 +3,21 @@
 accelerate==1.11.0 \
     --hash=sha256:a628fa6beb069b8e549460fc449135d5bd8d73e7a11fd09f0bc9fc4ace7f06f1 \
     --hash=sha256:bb1caf2597b4cd632b917b5000c591d10730bb024a79746f1ee205bba80bd229
-    # via unstructured-inference
+    # via
+    #   learning-lab
+    #   unstructured-inference
 aiofiles==25.1.0 \
     --hash=sha256:a8d728f0a29de45dc521f18f07297428d56992a742f0cd2701ba86e44d23d5b2 \
     --hash=sha256:abe311e527c862958650f9438e859c1fa7568a141b22abcd015e120e86a85695
-    # via unstructured-client
+    # via
+    #   learning-lab
+    #   unstructured-client
 aiohappyeyeballs==2.6.1 \
     --hash=sha256:c3f9d0113123803ccadfdf3f0faa505bc78e6a72d1cc4806cbd719826e943558 \
     --hash=sha256:f349ba8f4b75cb25c99c5c2d84e997e485204d2902a9597802b0371f09331fb8
-    # via aiohttp
+    # via
+    #   aiohttp
+    #   learning-lab
 aiohttp==3.13.1 \
     --hash=sha256:010dc9b7110f055006acd3648d5d5955bb6473b37c3663ec42a1b4cba7413e6b \
     --hash=sha256:02e0258b7585ddf5d01c79c716ddd674386bfbf3041fbbfe7bdf9c7c32eb4a9b \
@@ -82,52 +88,75 @@ aiohttp==3.13.1 \
     --hash=sha256:f92ad8169767429a6d2237331726c03ccc5f245222f9373aa045510976af2b35 \
     --hash=sha256:fdc4d81c3dfc999437f23e36d197e8b557a3f779625cd13efe563a9cfc2ce712 \
     --hash=sha256:feb5ee664300e2435e0d1bc3443a98925013dfaf2cae9699c1f3606b88544898
-    # via langchain-community
+    # via
+    #   langchain-community
+    #   learning-lab
 aiosignal==1.4.0 \
     --hash=sha256:053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e \
     --hash=sha256:f47eecd9468083c2029cc99945502cb7708b082c232f9aca65da147157b251c7
-    # via aiohttp
+    # via
+    #   aiohttp
+    #   learning-lab
 annotated-types==0.7.0 \
     --hash=sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53 \
     --hash=sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89
-    # via pydantic
+    # via
+    #   learning-lab
+    #   pydantic
 antlr4-python3-runtime==4.9.3 \
     --hash=sha256:f224469b4168294902bb1efa80a8bf7855f24c99aef99cbefc1bcd3cce77881b
-    # via omegaconf
+    # via
+    #   learning-lab
+    #   omegaconf
 anyio==4.11.0 \
     --hash=sha256:0287e96f4d26d4149305414d4e3bc32f0dcd0862365a4bddea19d7a1ec38c4fc \
     --hash=sha256:82a8d0b81e318cc5ce71a5f1f8b5c4e63619620b63141ef8c995fa0db95a57c4
-    # via httpx
+    # via
+    #   httpx
+    #   learning-lab
 appnope==0.1.4 ; sys_platform == 'darwin' \
     --hash=sha256:1de3860566df9caf38f01f86f65e0e13e379af54f9e4bee1e66b48f2efffd1ee \
     --hash=sha256:502575ee11cd7a28c0205f379b525beefebab9d161b7c964670864014ed7213c
-    # via ipykernel
+    # via
+    #   ipykernel
+    #   learning-lab
 asttokens==3.0.0 \
     --hash=sha256:0dcd8baa8d62b0c1d118b399b2ddba3c4aff271d0d7a9e0d4c1681c79035bbc7 \
     --hash=sha256:e3078351a059199dd5138cb1c706e6430c05eff2ff136af5eb4790f9d28932e2
-    # via stack-data
+    # via
+    #   learning-lab
+    #   stack-data
 attrs==25.4.0 \
     --hash=sha256:16d5969b87f0859ef33a48b35d55ac1be6e42ae49d5e853b597db70c35c57e11 \
     --hash=sha256:adcf7e2a1fb3b36ac48d97835bb6d8ade15b8dcce26aba8bf1d14847b57a3373
-    # via aiohttp
+    # via
+    #   aiohttp
+    #   learning-lab
 backoff==2.2.1 \
     --hash=sha256:03f829f5bb1923180821643f8753b0502c3b682293992485b0eef2807afa5cba \
     --hash=sha256:63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 beautifulsoup4==4.14.2 \
     --hash=sha256:2a98ab9f944a11acee9cc848508ec28d9228abfd522ef0fad6a02a72e0ded69e \
     --hash=sha256:5ef6fa3a8cbece8488d66985560f97ed091e22bbc4e9c2338508a9d5de6d4515
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 cachetools==6.2.1 \
     --hash=sha256:09868944b6dde876dfd44e1d47e18484541eaf12f26f29b7af91b26cc892d701 \
     --hash=sha256:3f391e4bd8f8bf0931169baf7456cc822705f4e2a31f840d218f445b9a854201
-    # via google-auth
+    # via
+    #   google-auth
+    #   learning-lab
 certifi==2025.10.5 \
     --hash=sha256:0f212c2744a9bb6de0c56639a6f68afe01ecd92d91f14ae897c4fe7bbeeef0de \
     --hash=sha256:47c09d31ccf2acf0be3f701ea53595ee7e0b8fa08801c6624be771df09ae7b43
     # via
     #   httpcore
     #   httpx
+    #   learning-lab
     #   requests
 cffi==2.0.0 ; implementation_name == 'pypy' or platform_python_implementation != 'PyPy' \
     --hash=sha256:00bdf7acc5f795150faa6957054fbbca2439db2f775ce831222b66f192f03beb \
@@ -179,6 +208,7 @@ cffi==2.0.0 ; implementation_name == 'pypy' or platform_python_implementation !=
     --hash=sha256:fc33c5141b55ed366cfaad382df24fe7dcbc686de5be719b207bb248e3053dc5
     # via
     #   cryptography
+    #   learning-lab
     #   pyzmq
 charset-normalizer==3.4.4 \
     --hash=sha256:0a98e6759f854bd25a58a73fa88833fba3b7c491169f86ce1180c948ab3fd394 \
@@ -232,6 +262,7 @@ charset-normalizer==3.4.4 \
     --hash=sha256:f8bf04158c6b607d747e93949aa60618b61312fe647a6369f88ce2ff16043490 \
     --hash=sha256:f9d332f8c2a2fcbffe1378594431458ddbef721c1769d78e2cbc06280d8155f9
     # via
+    #   learning-lab
     #   pdfminer-six
     #   requests
     #   unstructured
@@ -239,6 +270,7 @@ click==8.3.0 \
     --hash=sha256:9b9f285302c6e3064f4330c05f05b81945b2a39544279343e6e7c5f27a9baddc \
     --hash=sha256:e7b8232224eba16f4ebe410c25ced9f7875cb5f3263ffc93cc3e8da705e229c4
     # via
+    #   learning-lab
     #   nltk
     #   python-oxmsg
 colorama==0.4.6 ; sys_platform == 'win32' \
@@ -247,17 +279,21 @@ colorama==0.4.6 ; sys_platform == 'win32' \
     # via
     #   click
     #   ipython
+    #   learning-lab
     #   tqdm
 coloredlogs==15.0.1 \
     --hash=sha256:612ee75c546f53e92e70049c9dbfcc18c935a2b9a53b66085ce9ef6a6e5c0934 \
     --hash=sha256:7c991aa71a4577af2f82600d8f8f3a89f936baeaf9b50a9c197da014e5bf16b0
-    # via onnxruntime
+    # via
+    #   learning-lab
+    #   onnxruntime
 comm==0.2.3 \
     --hash=sha256:2dc8048c10962d55d7ad693be1e7045d891b7ce8d999c97963a5e3e99c055971 \
     --hash=sha256:c615d91d75f7f04f095b30d1c1711babd43bdc6419c1be9886a85f2f4e489417
     # via
     #   ipykernel
     #   ipywidgets
+    #   learning-lab
 contourpy==1.3.3 \
     --hash=sha256:023b44101dfe49d7d53932be418477dba359649246075c996866106da069af69 \
     --hash=sha256:07ce5ed73ecdc4a03ffe3e1b3e3c1166db35ae7584be76f65dbbe28a7791b0cc \
@@ -315,7 +351,9 @@ contourpy==1.3.3 \
     --hash=sha256:fd6ec6be509c787f1caf6b247f0b1ca598bef13f4ddeaa126b7658215529ba0f \
     --hash=sha256:fd914713266421b7536de2bfa8181aa8c699432b6763a0ea64195ebe28bff6a9 \
     --hash=sha256:fde6c716d51c04b1c25d0b90364d0be954624a0ee9d60e23e850e8d48353d07a
-    # via matplotlib
+    # via
+    #   learning-lab
+    #   matplotlib
 cryptography==46.0.3 \
     --hash=sha256:00a5e7e87938e5ff9ff5447ab086a5706a957137e6e433841e9d24f38a065217 \
     --hash=sha256:01ca9ff2885f3acc98c29f1860552e37f6d7c7d013d7334ff2a9de43a449315d \
@@ -364,17 +402,21 @@ cryptography==46.0.3 \
     --hash=sha256:ef639cb3372f69ec44915fafcd6698b6cc78fbe0c2ea41be867f6ed612811963 \
     --hash=sha256:f260d0d41e9b4da1ed1e0f1ce571f97fe370b152ab18778e9e8f67d6af432018
     # via
+    #   learning-lab
     #   pdfminer-six
     #   unstructured-client
 cycler==0.12.1 \
     --hash=sha256:85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30 \
     --hash=sha256:88bb128f02ba341da8ef447245a9e138fae777f6a23943da4540077d3601eb1c
-    # via matplotlib
+    # via
+    #   learning-lab
+    #   matplotlib
 dataclasses-json==0.6.7 \
     --hash=sha256:0dbf33f26c8d5305befd61b39d2b3414e8a407bedc2834dea9b8d642666fb40a \
     --hash=sha256:b6b3e528266ea45b9535223bc53ca645f5208833c29229e847b3f26a1cc55fc0
     # via
     #   langchain-community
+    #   learning-lab
     #   unstructured
 debugpy==1.8.17 \
     --hash=sha256:045290c010bcd2d82bc97aa2daf6837443cd52f6328592698809b4549babcee1 \
@@ -391,42 +433,57 @@ debugpy==1.8.17 \
     --hash=sha256:e8f8f61c518952fb15f74a302e068b48d9c4691768ade433e4adeea961993464 \
     --hash=sha256:f14467edef672195c6f6b8e27ce5005313cb5d03c9239059bc7182b60c176e2d \
     --hash=sha256:fd723b47a8c08892b1a16b2c6239a8b96637c62a59b94bb5dab4bac592a58a8e
-    # via ipykernel
+    # via
+    #   ipykernel
+    #   learning-lab
 decorator==5.2.1 \
     --hash=sha256:65f266143752f734b0a7cc83c46f4618af75b8c5911b00ccb61d0ac9b6da0360 \
     --hash=sha256:d316bb415a2d9e2d2b3abcc4084c6502fc09240e292cd76a76afc106a1c8e04a
-    # via ipython
+    # via
+    #   ipython
+    #   learning-lab
 deprecated==1.1.5 \
     --hash=sha256:22513e7f038087202310f04b22bb7bdce49534ee32b820e7b6affb7bbe68f441 \
     --hash=sha256:2938146778575fbc8823cfefd3ff2ac483ccb34931ce46d86a08b74efc3c15c6
-    # via pikepdf
+    # via
+    #   learning-lab
+    #   pikepdf
 effdet==0.4.1 \
     --hash=sha256:10889a226228d515c948e3fcf811e64c0d78d7aa94823a300045653b9c284cb7 \
     --hash=sha256:ac5589fd304a5650c201986b2ef5f8e10c111093a71b1c49fa6b8817710812b5
-    # via unstructured
+    # via learning-lab
 emoji==2.15.0 \
     --hash=sha256:205296793d66a89d88af4688fa57fd6496732eb48917a87175a023c8138995eb \
     --hash=sha256:eae4ab7d86456a70a00a985125a03263a5eac54cd55e51d7e184b1ed3b6757e4
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 executing==2.2.1 \
     --hash=sha256:3632cc370565f6648cc328b32435bd120a1e4ebb20c77e3fdde9a13cd1e533c4 \
     --hash=sha256:760643d3452b4d777d295bb167ccc74c64a81df23fb5e08eff250c425a4b2017
-    # via stack-data
+    # via
+    #   learning-lab
+    #   stack-data
 filelock==3.20.0 \
     --hash=sha256:339b4732ffda5cd79b13f4e2711a31b0365ce445d95d243bb996273d072546a2 \
     --hash=sha256:711e943b4ec6be42e1d4e6690b48dc175c822967466bb31c0c293f34334c13f4
     # via
     #   huggingface-hub
+    #   learning-lab
     #   torch
     #   transformers
 filetype==1.2.0 \
     --hash=sha256:66b56cd6474bf41d8c54660347d37afcc3f7d1970648de365c102ef77548aadb \
     --hash=sha256:7ce71b6880181241cf7ac8697a2f1eb6a8bd9b429f7ad6d27b8db9ba5f1c2d25
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 flatbuffers==25.9.23 \
     --hash=sha256:255538574d6cb6d0a79a17ec8bc0d30985913b87513a01cce8bcdb6b4c44d0e2 \
     --hash=sha256:676f9fa62750bb50cf531b42a0a2a118ad8f7f797a511eda12881c016f093b12
-    # via onnxruntime
+    # via
+    #   learning-lab
+    #   onnxruntime
 fonttools==4.60.1 \
     --hash=sha256:022beaea4b73a70295b688f817ddc24ed3e3418b5036ffcd5658141184ef0d0c \
     --hash=sha256:026290e4ec76583881763fac284aca67365e0be9f13a7fb137257096114cb3bc \
@@ -462,7 +519,9 @@ fonttools==4.60.1 \
     --hash=sha256:ef00af0439ebfee806b25f24c8f92109157ff3fac5731dc7867957812e87b8d9 \
     --hash=sha256:f0e8817c7d1a0c2eedebf57ef9a9896f3ea23324769a9a2061a80fe8852705ed \
     --hash=sha256:f3d5be054c461d6a2268831f04091dc82753176f6ea06dc6047a5e168265a987
-    # via matplotlib
+    # via
+    #   learning-lab
+    #   matplotlib
 frozenlist==1.8.0 \
     --hash=sha256:0325024fe97f94c41c08872db482cf8ac4800d80e79222c6b0b7b162d5b13686 \
     --hash=sha256:032efa2674356903cd0261c4317a561a6850f3ac864a63fc1583147fb05a79b0 \
@@ -549,32 +608,38 @@ frozenlist==1.8.0 \
     # via
     #   aiohttp
     #   aiosignal
+    #   learning-lab
 fsspec==2025.9.0 \
     --hash=sha256:19fd429483d25d28b65ec68f9f4adc16c17ea2c7c7bf54ec61360d478fb19c19 \
     --hash=sha256:530dc2a2af60a414a832059574df4a6e10cce927f6f4a78209390fe38955cfb7
     # via
     #   huggingface-hub
+    #   learning-lab
     #   torch
 google-api-core==2.26.0 \
     --hash=sha256:2b204bd0da2c81f918e3582c48458e24c11771f987f6258e6e227212af78f3ed \
     --hash=sha256:e6e6d78bd6cf757f4aee41dcc85b07f485fbb069d5daa3afb126defba1e91a62
-    # via google-cloud-vision
+    # via
+    #   google-cloud-vision
+    #   learning-lab
 google-auth==2.41.1 \
     --hash=sha256:754843be95575b9a19c604a848a41be03f7f2afd8c019f716dc1f51ee41c639d \
     --hash=sha256:b76b7b1f9e61f0cb7e88870d14f6a94aeef248959ef6992670efee37709cbfd2
     # via
     #   google-api-core
     #   google-cloud-vision
+    #   learning-lab
 google-cloud-vision==3.11.0 \
     --hash=sha256:8910f743a87a34058dd6e5e41790be1eb100a0b91c20cc6372a2388b328c8890 \
     --hash=sha256:c3cb57df2cf152ebe62ebaae9b1d5deff5a26aec5bd6e1c7f67e44bf6f4518f4
-    # via unstructured
+    # via learning-lab
 googleapis-common-protos==1.71.0 \
     --hash=sha256:1aec01e574e29da63c80ba9f7bbf1ccfaacf1da877f23609fe236ca7c72a2e2e \
     --hash=sha256:59034a1d849dc4d18971997a72ac56246570afdd17f9369a0ff68218d50ab78c
     # via
     #   google-api-core
     #   grpcio-status
+    #   learning-lab
 greenlet==3.2.4 ; platform_machine == 'AMD64' or platform_machine == 'WIN32' or platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'ppc64le' or platform_machine == 'win32' or platform_machine == 'x86_64' \
     --hash=sha256:00fadb3fedccc447f517ee0d3fd8fe49eae949e1cd0f6a611818f4f6fb7dc83b \
     --hash=sha256:061dc4cf2c34852b052a8620d40f36324554bc192be474b9e9770e8c042fd735 \
@@ -602,7 +667,9 @@ greenlet==3.2.4 ; platform_machine == 'AMD64' or platform_machine == 'WIN32' or 
     --hash=sha256:ddf9164e7a5b08e9d22511526865780a576f19ddd00d62f8a665949327fde8bb \
     --hash=sha256:e37ab26028f12dbb0ff65f29a8d3d44a765c61e729647bf2ddfbbed621726f01 \
     --hash=sha256:f28588772bb5fb869a8eb331374ec06f24a83a9c25bfa1f38b6993afe9c1e968
-    # via sqlalchemy
+    # via
+    #   learning-lab
+    #   sqlalchemy
 grpcio==1.75.1 \
     --hash=sha256:06373a94fd16ec287116a825161dca179a0402d0c60674ceeec8c9fba344fe66 \
     --hash=sha256:07a554fa31c668cf0e7a188678ceeca3cb8fead29bbe455352e712ec33ca701c \
@@ -639,14 +706,19 @@ grpcio==1.75.1 \
     #   google-api-core
     #   google-cloud-vision
     #   grpcio-status
+    #   learning-lab
 grpcio-status==1.75.1 \
     --hash=sha256:8162afa21833a2085c91089cc395ad880fac1378a1d60233d976649ed724cbf8 \
     --hash=sha256:f681b301be26dcf7abf5c765d4a22e4098765e1a65cbdfa3efca384edf8e4e3c
-    # via google-api-core
+    # via
+    #   google-api-core
+    #   learning-lab
 h11==0.16.0 \
     --hash=sha256:4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1 \
     --hash=sha256:63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86
-    # via httpcore
+    # via
+    #   httpcore
+    #   learning-lab
 hf-xet==1.1.10 ; platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'arm64' or platform_machine == 'x86_64' \
     --hash=sha256:0a0005fd08f002180f7a12d4e13b22be277725bc23ed0529f8add5c7a6309c06 \
     --hash=sha256:408aef343800a2102374a883f283ff29068055c111f003ff840733d3b715bb97 \
@@ -656,16 +728,21 @@ hf-xet==1.1.10 ; platform_machine == 'aarch64' or platform_machine == 'amd64' or
     --hash=sha256:71081925383b66b24eedff3013f8e6bbd41215c3338be4b94ba75fd75b21513b \
     --hash=sha256:eae7c1fc8a664e54753ffc235e11427ca61f4b0477d757cc4eb9ae374b69f09c \
     --hash=sha256:f900481cf6e362a6c549c61ff77468bd59d6dd082f3170a36acfef2eb6a6793f
-    # via huggingface-hub
+    # via
+    #   huggingface-hub
+    #   learning-lab
 html5lib==1.1 \
     --hash=sha256:0d78f8fde1c230e99fe37986a60526d7049ed4bf8a9fadbad5f00e22e58e041d \
     --hash=sha256:b2e5b40261e20f354d198eae92afc10d750afb487ed5e50f9c4eaf07c184146f
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 httpcore==1.0.9 \
     --hash=sha256:2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55 \
     --hash=sha256:6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8
     # via
     #   httpx
+    #   learning-lab
     #   unstructured-client
 httpx==0.28.1 \
     --hash=sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc \
@@ -673,16 +750,20 @@ httpx==0.28.1 \
     # via
     #   langgraph-sdk
     #   langsmith
+    #   learning-lab
     #   unstructured-client
 httpx-sse==0.4.3 \
     --hash=sha256:0ac1c9fe3c0afad2e0ebb25a934a59f4c7823b60792691f779fad2c5568830fc \
     --hash=sha256:9b1ed0127459a66014aec3c56bebd93da3c1bc8bb6618c8082039a44889a755d
-    # via langchain-community
+    # via
+    #   langchain-community
+    #   learning-lab
 huggingface-hub==0.35.3 \
     --hash=sha256:0e3a01829c19d86d03793e4577816fe3bdfc1602ac62c7fb220d593d351224ba \
     --hash=sha256:350932eaa5cc6a4747efae85126ee220e4ef1b54e29d31c3b45c5612ddf0b32a
     # via
     #   accelerate
+    #   learning-lab
     #   timm
     #   tokenizers
     #   transformers
@@ -690,13 +771,16 @@ huggingface-hub==0.35.3 \
 humanfriendly==10.0 \
     --hash=sha256:1697e1a8a8f550fd43c2865cd84542fc175a61dcb779b6fee18cf6b6ccba1477 \
     --hash=sha256:6b0b831ce8f15f7300721aa49829fc4e83921a9a301cc7f606be6686a2288ddc
-    # via coloredlogs
+    # via
+    #   coloredlogs
+    #   learning-lab
 idna==3.11 \
     --hash=sha256:771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea \
     --hash=sha256:795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902
     # via
     #   anyio
     #   httpx
+    #   learning-lab
     #   requests
     #   yarl
 ipykernel==7.0.1 \
@@ -709,10 +793,13 @@ ipython==9.6.0 \
     # via
     #   ipykernel
     #   ipywidgets
+    #   learning-lab
 ipython-pygments-lexers==1.1.1 \
     --hash=sha256:09c0138009e56b6854f9535736f4171d855c8c08a563a0dcd8022f78355c7e81 \
     --hash=sha256:a9462224a505ade19a605f71f8fa63c2048833ce50abc86768a0d81d876dc81c
-    # via ipython
+    # via
+    #   ipython
+    #   learning-lab
 ipywidgets==8.1.7 \
     --hash=sha256:15f1ac050b9ccbefd45dccfbb2ef6bed0029d8278682d569d71b8dd96bee0376 \
     --hash=sha256:764f2602d25471c213919b8a1997df04bef869251db4ca8efba1b76b1bd9f7bb
@@ -720,37 +807,52 @@ ipywidgets==8.1.7 \
 jedi==0.19.2 \
     --hash=sha256:4770dc3de41bde3966b02eb84fbcf557fb33cce26ad23da12c742fb50ecb11f0 \
     --hash=sha256:a8ef22bde8490f57fe5c7681a3c83cb58874daf72b4784de3cce5b6ef6edb5b9
-    # via ipython
+    # via
+    #   ipython
+    #   learning-lab
 jinja2==3.1.6 \
     --hash=sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d \
     --hash=sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 joblib==1.5.2 \
     --hash=sha256:3faa5c39054b2f03ca547da9b2f52fde67c06240c31853f306aea97f13647b55 \
     --hash=sha256:4e1f0bdbb987e6d843c70cf43714cb276623def372df3c22fe5266b2670bc241
-    # via nltk
+    # via
+    #   learning-lab
+    #   nltk
 jsonpatch==1.33 \
     --hash=sha256:0ae28c0cd062bbd8b8ecc26d7d164fbbea9652a1a3693f3b956c1eae5145dade \
     --hash=sha256:9fcd4009c41e6d12348b4a0ff2563ba56a2923a7dfee731d004e212e1ee5030c
-    # via langchain-core
+    # via
+    #   langchain-core
+    #   learning-lab
 jsonpointer==3.0.0 \
     --hash=sha256:13e088adc14fca8b6aa8177c044e12701e6ad4b28ff10e65f2267a90109c9942 \
     --hash=sha256:2b2d729f2091522d61c3b31f82e11870f60b68f43fbc705cb76bf4b832af59ef
-    # via jsonpatch
+    # via
+    #   jsonpatch
+    #   learning-lab
 jupyter-client==8.6.3 \
     --hash=sha256:35b3a0947c4a6e9d589eb97d7d4cd5e90f910ee73101611f01283732bd6d9419 \
     --hash=sha256:e8a19cc986cc45905ac3362915f410f3af85424b4c0905e94fa5f2cb08e8f23f
-    # via ipykernel
+    # via
+    #   ipykernel
+    #   learning-lab
 jupyter-core==5.9.1 \
     --hash=sha256:4d09aaff303b9566c3ce657f580bd089ff5c91f5f89cf7d8846c3cdf465b5508 \
     --hash=sha256:ebf87fdc6073d142e114c72c9e29a9d7ca03fad818c5d300ce2adc1fb0743407
     # via
     #   ipykernel
     #   jupyter-client
+    #   learning-lab
 jupyterlab-widgets==3.0.15 \
     --hash=sha256:2920888a0c2922351a9202817957a68c07d99673504d6cd37345299e971bb08b \
     --hash=sha256:d59023d7d7ef71400d51e6fee9a88867f6e65e10a4201605d2d7f3e8f012a31c
-    # via ipywidgets
+    # via
+    #   ipywidgets
+    #   learning-lab
 kiwisolver==1.4.9 \
     --hash=sha256:0749fd8f4218ad2e851e11cc4dc05c7cbc0cbc4267bdfdb31782e65aace4ee9c \
     --hash=sha256:0763515d4df10edf6d06a3c19734e2566368980d21ebec439f33f9eb936c07b7 \
@@ -817,7 +919,9 @@ kiwisolver==1.4.9 \
     --hash=sha256:f6008a4919fdbc0b0097089f67a1eb55d950ed7e90ce2cc3e640abadd2757a04 \
     --hash=sha256:f68208a520c3d86ea51acf688a3e3002615a7f0238002cccc17affecc86a8a54 \
     --hash=sha256:f68e4f3eeca8fb22cc3d731f9715a13b652795ef657a13df1ad0c7dc0e9731df
-    # via matplotlib
+    # via
+    #   learning-lab
+    #   matplotlib
 langchain==1.0.1 \
     --hash=sha256:48fd616413fee4843f12cad49e8b74ad6fc159640142ca885d03bd925cd24503 \
     --hash=sha256:8bf60e096ca9c06626d9161a46651405ef1d12b5863f7679283666f83f760dc5
@@ -825,7 +929,9 @@ langchain==1.0.1 \
 langchain-classic==1.0.0 \
     --hash=sha256:97f71f150c10123f5511c08873f030e35ede52311d729a7688c721b4e1e01f33 \
     --hash=sha256:a63655609254ebc36d660eb5ad7c06c778b2e6733c615ffdac3eac4fbe2b12c5
-    # via langchain-community
+    # via
+    #   langchain-community
+    #   learning-lab
 langchain-community==0.4 \
     --hash=sha256:11ff08c3d923641cecbe17379cfeeb1258eed1b51bbf1784362d69bb5fe38bf2 \
     --hash=sha256:79034e7bd4ba3a67ae9d7dd7fcef63ef4ed44673480fea0405ab45295985d56d
@@ -841,31 +947,43 @@ langchain-core==1.0.0 \
     #   langgraph
     #   langgraph-checkpoint
     #   langgraph-prebuilt
+    #   learning-lab
 langchain-text-splitters==1.0.0 \
     --hash=sha256:d8580a20ad7ed10b432feb273e5758b2cc0902d094919629cec0e1ad691a6744 \
     --hash=sha256:f00c8219d3468f2c5bd951b708b6a7dd9bc3c62d0cfb83124c377f7170f33b2e
-    # via langchain-classic
+    # via
+    #   langchain-classic
+    #   learning-lab
 langdetect==1.0.9 \
     --hash=sha256:cbc1fef89f8d062739774bd51eda3da3274006b3661d199c2655f6b3f6d605a0
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 langgraph==1.0.1 \
     --hash=sha256:4985b32ceabb046a802621660836355dfcf2402c5876675dc353db684aa8f563 \
     --hash=sha256:892f04f64f4889abc80140265cc6bd57823dd8e327a5eef4968875f2cd9013bd
-    # via langchain
+    # via
+    #   langchain
+    #   learning-lab
 langgraph-checkpoint==3.0.0 \
     --hash=sha256:560beb83e629784ab689212a3d60834fb3196b4bbe1d6ac18e5cad5d85d46010 \
     --hash=sha256:f738695ad938878d8f4775d907d9629e9fcd345b1950196effb08f088c52369e
     # via
     #   langgraph
     #   langgraph-prebuilt
+    #   learning-lab
 langgraph-prebuilt==1.0.1 \
     --hash=sha256:8c02e023538f7ef6ad5ed76219ba1ab4f6de0e31b749e4d278f57a8a95eec9f7 \
     --hash=sha256:ecbfb9024d9d7ed9652dde24eef894650aaab96bf79228e862c503e2a060b469
-    # via langgraph
+    # via
+    #   langgraph
+    #   learning-lab
 langgraph-sdk==0.2.9 \
     --hash=sha256:b3bd04c6be4fa382996cd2be8fbc1e7cc94857d2bc6b6f4599a7f2a245975303 \
     --hash=sha256:fbf302edadbf0fb343596f91c597794e936ef68eebc0d3e1d358b6f9f72a1429
-    # via langgraph
+    # via
+    #   langgraph
+    #   learning-lab
 langsmith==0.4.37 \
     --hash=sha256:d9a0eb6dd93f89843ac982c9f92be93cf2bcabbe19957f362c547766c7366c71 \
     --hash=sha256:e34a94ce7277646299e4703a0f6e2d2c43647a28e8b800bb7ef82fd87a0ec766
@@ -873,6 +991,7 @@ langsmith==0.4.37 \
     #   langchain-classic
     #   langchain-community
     #   langchain-core
+    #   learning-lab
 lxml==6.0.2 \
     --hash=sha256:063eccf89df5b24e361b123e257e437f9e9878f425ee9aae3144c77faf6da6d8 \
     --hash=sha256:064fdadaf7a21af3ed1dcaa106b854077fbeada827c18f72aec9346847cd65d0 \
@@ -948,6 +1067,7 @@ lxml==6.0.2 \
     --hash=sha256:fb8dae0b6b8b7f9e96c26fdd8121522ce5de9bb5538010870bd538683d30e9a2 \
     --hash=sha256:fbc74f42c3525ac4ffa4b89cbdd00057b6196bcefe8bce794abd42d33a018092
     # via
+    #   learning-lab
     #   pikepdf
     #   unstructured
 markupsafe==3.0.3 \
@@ -1007,11 +1127,15 @@ markupsafe==3.0.3 \
     --hash=sha256:f34c41761022dd093b4b6896d4810782ffbabe30f2d443ff5f083e0cbbb8c737 \
     --hash=sha256:f3e98bb3798ead92273dc0e5fd0f31ade220f59a266ffd8a4f6065e0a3ce0523 \
     --hash=sha256:fed51ac40f757d41b7c48425901843666a6677e3e8eb0abcff09e4ba6e664f50
-    # via jinja2
+    # via
+    #   jinja2
+    #   learning-lab
 marshmallow==3.26.1 \
     --hash=sha256:3350409f20a70a7e4e11a27661187b77cdcaeb20abca41c1454fe33636bea09c \
     --hash=sha256:e6d8affb6cb61d39d26402096dc0aee12d5a26d490a121f118d2e81dc0719dc6
-    # via dataclasses-json
+    # via
+    #   dataclasses-json
+    #   learning-lab
 matplotlib==3.10.7 \
     --hash=sha256:07124afcf7a6504eafcb8ce94091c5898bbdd351519a1beb5c45f7a38c67e77f \
     --hash=sha256:09d7945a70ea43bf9248f4b6582734c2fe726723204a76eca233f24cffc7ef67 \
@@ -1049,13 +1173,16 @@ matplotlib==3.10.7 \
     --hash=sha256:d8eb7194b084b12feb19142262165832fc6ee879b945491d1c3d4660748020c4 \
     --hash=sha256:f79d5de970fc90cd5591f60053aecfce1fcd736e0303d9f0bf86be649fa68fb8 \
     --hash=sha256:fba2974df0bf8ce3c995fa84b79cde38326e0f7b5409e7a3a481c1141340bcf7
-    # via unstructured-inference
+    # via
+    #   learning-lab
+    #   unstructured-inference
 matplotlib-inline==0.1.7 \
     --hash=sha256:8423b23ec666be3d16e16b60bdd8ac4e86e840ebd1dd11a30b9f117f2fa0ab90 \
     --hash=sha256:df192d39a4ff8f21b1895d72e6a13f5fcc5099f00fa84384e0ea28c2cc0653ca
     # via
     #   ipykernel
     #   ipython
+    #   learning-lab
 ml-dtypes==0.5.3 \
     --hash=sha256:0e44a3761f64bc009d71ddb6d6c71008ba21b53ab6ee588dadab65e2fa79eafc \
     --hash=sha256:156418abeeda48ea4797db6776db3c5bdab9ac7be197c1233771e0880c304057 \
@@ -1079,11 +1206,15 @@ ml-dtypes==0.5.3 \
     --hash=sha256:d0f730a17cf4f343b2c7ad50cee3bd19e969e793d2be6ed911f43086460096e4 \
     --hash=sha256:da65e5fd3eea434ccb8984c3624bc234ddcc0d9f4c81864af611aaebcc08a50e \
     --hash=sha256:e12e29764a0e66a7a31e9b8bf1de5cc0423ea72979f45909acd4292de834ccd3
-    # via onnx
+    # via
+    #   learning-lab
+    #   onnx
 mpmath==1.3.0 \
     --hash=sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f \
     --hash=sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c
-    # via sympy
+    # via
+    #   learning-lab
+    #   sympy
 multidict==6.7.0 \
     --hash=sha256:040f393368e63fb0f3330e70c26bfd336656bed925e5cbe17c9da839a6ab13ec \
     --hash=sha256:05047ada7a2fde2631a0ed706f1fd68b169a681dfe5e4cf0f8e4cb6618bbc2cd \
@@ -1179,23 +1310,32 @@ multidict==6.7.0 \
     --hash=sha256:fbd18dc82d7bf274b37aa48d664534330af744e03bccf696d6f4c6042e7d19e7
     # via
     #   aiohttp
+    #   learning-lab
     #   yarl
 mypy-extensions==1.1.0 \
     --hash=sha256:1be4cccdb0f2482337c4743e60421de3a356cd97508abadd57d47403e94f5505 \
     --hash=sha256:52e68efc3284861e772bbcd66823fde5ae21fd2fdb51c62a211403730b916558
-    # via typing-inspect
+    # via
+    #   learning-lab
+    #   typing-inspect
 nest-asyncio==1.6.0 \
     --hash=sha256:6f172d5449aca15afd6c646851f4e31e02c598d553a667e38cafa997cfec55fe \
     --hash=sha256:87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c
-    # via ipykernel
+    # via
+    #   ipykernel
+    #   learning-lab
 networkx==3.5 \
     --hash=sha256:0030d386a9a06dee3565298b4a734b68589749a544acbb6c412dc9e2489ec6ec \
     --hash=sha256:d4c6f9cf81f52d69230866796b82afbccdec3db7ae4fbd1b65ea750feed50037
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nltk==3.9.2 \
     --hash=sha256:0f409e9b069ca4177c1903c3e843eef90c7e92992fa4931ae607da6de49e1419 \
     --hash=sha256:1e209d2b3009110635ed9709a67a1a3e33a10f799490fa71cf4bec218c11c88a
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 numpy==2.3.4 \
     --hash=sha256:035796aaaddfe2f9664b9a9372f089cfc88bd795a67bd1bfe15e6e770934cf64 \
     --hash=sha256:043885b4f7e6e232d7df4f51ffdef8c36320ee9d5f227b380ea636722c7ed12e \
@@ -1257,6 +1397,7 @@ numpy==2.3.4 \
     #   accelerate
     #   contourpy
     #   langchain-community
+    #   learning-lab
     #   matplotlib
     #   ml-dtypes
     #   onnx
@@ -1272,65 +1413,96 @@ numpy==2.3.4 \
 nvidia-cublas-cu12==12.8.4.1 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:8ac4e771d5a348c551b2a426eda6193c19aa630236b418086020df5ba9667142
     # via
+    #   learning-lab
     #   nvidia-cudnn-cu12
     #   nvidia-cusolver-cu12
     #   torch
 nvidia-cuda-cupti-cu12==12.8.90 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:ea0cb07ebda26bb9b29ba82cda34849e73c166c18162d3913575b0c9db9a6182
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-cuda-nvrtc-cu12==12.8.93 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:a7756528852ef889772a84c6cd89d41dfa74667e24cca16bb31f8f061e3e9994
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-cuda-runtime-cu12==12.8.90 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:adade8dcbd0edf427b7204d480d6066d33902cab2a4707dcfc48a2d0fd44ab90
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-cudnn-cu12==9.10.2.21 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:949452be657fa16687d0930933f032835951ef0892b37d2d53824d1a84dc97a8
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-cufft-cu12==11.3.3.83 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:4d2dd21ec0b88cf61b62e6b43564355e5222e4a3fb394cac0db101f2dd0d4f74
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-cufile-cu12==1.13.1.3 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:1d069003be650e131b21c932ec3d8969c1715379251f8d23a1860554b1cb24fc
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-curand-cu12==10.3.9.90 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:b32331d4f4df5d6eefa0554c565b626c7216f87a06a4f56fab27c3b68a830ec9
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-cusolver-cu12==11.7.3.90 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:4376c11ad263152bd50ea295c05370360776f8c3427b30991df774f9fb26c450
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-cusparse-cu12==12.5.8.93 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:1ec05d76bbbd8b61b06a80e1eaf8cf4959c3d4ce8e711b65ebd0443bb0ebb13b
     # via
+    #   learning-lab
     #   nvidia-cusolver-cu12
     #   torch
 nvidia-cusparselt-cu12==0.7.1 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:f1bb701d6b930d5a7cea44c19ceb973311500847f81b634d802b7b539dc55623
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-nccl-cu12==2.27.5 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:ad730cf15cb5d25fe849c6e6ca9eb5b76db16a80f13f425ac68d8e2e55624457
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-nvjitlink-cu12==12.8.93 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:81ff63371a7ebd6e6451970684f916be2eab07321b73c9d244dc2b4da7f73b88
     # via
+    #   learning-lab
     #   nvidia-cufft-cu12
     #   nvidia-cusolver-cu12
     #   nvidia-cusparse-cu12
     #   torch
 nvidia-nvshmem-cu12==3.3.20 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:d00f26d3f9b2e3c3065be895e3059d6479ea5c638a3f38c9fec49b1b9dd7c1e5
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 nvidia-nvtx-cu12==12.8.90 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:5b17e2001cc0d751a5bc2c6ec6d26ad95913324a4adb86788c944f8ce9ba441f
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 olefile==0.47 \
     --hash=sha256:543c7da2a7adadf21214938bb79c83ea12b473a4b6ee4ad4bf854e7715e13d1f \
     --hash=sha256:599383381a0bf3dfbd932ca0ca6515acd174ed48870cbf7fee123d698c192c1c
-    # via python-oxmsg
+    # via
+    #   learning-lab
+    #   python-oxmsg
 omegaconf==2.3.0 \
     --hash=sha256:7b4df175cdb08ba400f45cae3bdcae7ba8365db4d165fc65fd04b050ab63b46b \
     --hash=sha256:d5d4b6d29955cc50ad50c46dc269bcd92c6e00f5f90d23ab5fee7bfca4ba4cc7
-    # via effdet
+    # via
+    #   effdet
+    #   learning-lab
 onnx==1.19.1 \
     --hash=sha256:07dcd4d83584eb4bf8f21ac04c82643712e5e93ac2a0ed10121ec123cb127e1e \
     --hash=sha256:17c215b1c0f20fe93b4cbe62668247c1d2294b9bc7f6be0ca9ced28e980c07b7 \
@@ -1351,7 +1523,7 @@ onnx==1.19.1 \
     --hash=sha256:c8d9c467f0f29993c12f330736af87972f30adb8329b515f39d63a0db929cb2c \
     --hash=sha256:e41496f400afb980ec643d80d5164753a88a85234fa5c06afdeebc8b7d1ec252
     # via
-    #   unstructured
+    #   learning-lab
     #   unstructured-inference
 onnxruntime==1.23.1 \
     --hash=sha256:16217416cb88aadcd6a86f8e7c6c22ff951b65f9f695faef9c1ff94052ba1c36 \
@@ -1367,7 +1539,7 @@ onnxruntime==1.23.1 \
     --hash=sha256:ce3ea70499aabc7c8b9407b3680b12473dba9322e3dfde0fe11ff8061c44a226 \
     --hash=sha256:dc8f92157234c3cfba23016576f73deb99aba165a6fc1f2fe4a37d0c524ad3ad
     # via
-    #   unstructured
+    #   learning-lab
     #   unstructured-inference
 opencv-python==4.11.0.86 \
     --hash=sha256:03d60ccae62304860d232272e4a4fda93c39d595780cb40b161b310244b736a4 \
@@ -1377,7 +1549,9 @@ opencv-python==4.11.0.86 \
     --hash=sha256:6b02611523803495003bd87362db3e1d2a0454a6a63025dc6658a9830570aa0d \
     --hash=sha256:810549cb2a4aedaa84ad9a1c92fbfdfc14090e2749cedf2c1589ad8359aa169b \
     --hash=sha256:9d05ef13d23fe97f575153558653e2d6e87103995d54e6a35db3f282fe1f9c66
-    # via unstructured-inference
+    # via
+    #   learning-lab
+    #   unstructured-inference
 orjson==3.11.3 \
     --hash=sha256:0c6d7328c200c349e3a4c6d8c83e0a5ad029bdc2d417f234152bf34842d0fc8d \
     --hash=sha256:0e92a4e83341ef79d835ca21b8bd13e27c859e4e9e4d7b63defc6e58462a3710 \
@@ -1424,6 +1598,7 @@ orjson==3.11.3 \
     # via
     #   langgraph-sdk
     #   langsmith
+    #   learning-lab
 ormsgpack==1.11.0 \
     --hash=sha256:0362fb7fe4a29c046c8ea799303079a09372653a1ce5a5a588f3bbb8088368d0 \
     --hash=sha256:0e7b36ab7b45cb95217ae1f05f1318b14a3e5ef73cb00804c0f06233f81a14e8 \
@@ -1456,7 +1631,9 @@ ormsgpack==1.11.0 \
     --hash=sha256:f38cfae95461466055af966fc922d06db4e1654966385cda2828653096db34da \
     --hash=sha256:fcca21202bb05ccbf3e0e92f560ee59b9331182e4c09c965a28155efbb134993 \
     --hash=sha256:fdbaa0a5a8606a486960b60c24f2d5235d30ac7a8b98eeaea9854bffef14dc3d
-    # via langgraph-checkpoint
+    # via
+    #   langgraph-checkpoint
+    #   learning-lab
 packaging==25.0 \
     --hash=sha256:29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484 \
     --hash=sha256:d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f
@@ -1466,6 +1643,7 @@ packaging==25.0 \
     #   ipykernel
     #   langchain-core
     #   langsmith
+    #   learning-lab
     #   marshmallow
     #   matplotlib
     #   onnxruntime
@@ -1507,25 +1685,31 @@ pandas==2.3.3 \
     --hash=sha256:ee15f284898e7b246df8087fc82b87b01686f98ee67d85a17b7ab44143a3a9a0 \
     --hash=sha256:ee67acbbf05014ea6c763beb097e03cd629961c8a632075eeb34247120abcb4b \
     --hash=sha256:f8bfc0e12dc78f777f323f55c58649591b2cd0c43534e8355c51d3fede5f4dee
-    # via unstructured-inference
+    # via
+    #   learning-lab
+    #   unstructured-inference
 parso==0.8.5 \
     --hash=sha256:034d7354a9a018bdce352f48b2a8a450f05e9d6ee85db84764e9b6bd96dafe5a \
     --hash=sha256:646204b5ee239c396d040b90f9e272e9a8017c630092bf59980beb62fd033887
-    # via jedi
+    # via
+    #   jedi
+    #   learning-lab
 pdf2image==1.17.0 \
     --hash=sha256:eaa959bc116b420dd7ec415fcae49b98100dda3dd18cd2fdfa86d09f112f6d57 \
     --hash=sha256:ecdd58d7afb810dffe21ef2b1bbc057ef434dabbac6c33778a38a3f7744a27e2
-    # via unstructured
+    # via learning-lab
 pdfminer-six==20250506 \
     --hash=sha256:b03cc8df09cf3c7aba8246deae52e0bca7ebb112a38895b5e1d4f5dd2b8ca2e7 \
     --hash=sha256:d81ad173f62e5f841b53a8ba63af1a4a355933cfc0ffabd608e568b9193909e3
     # via
-    #   unstructured
+    #   learning-lab
     #   unstructured-inference
 pexpect==4.9.0 ; sys_platform != 'emscripten' and sys_platform != 'win32' \
     --hash=sha256:7236d1e080e4936be2dc3e326cec0af72acf9212a7e1d060210e70a47e253523 \
     --hash=sha256:ee7d41123f3c9911050ea2c2dac107568dc43b2d3b0c7557a33212c398ead30f
-    # via ipython
+    # via
+    #   ipython
+    #   learning-lab
 pi-heif==1.1.1 \
     --hash=sha256:3059623494a94800746cfea07117c41f2829e528f6433d1af2f198962b506c03 \
     --hash=sha256:35fa3c8f05ab594254c4a33a703c4fc02061973417c418c3d4b81e9f6db90470 \
@@ -1549,7 +1733,7 @@ pi-heif==1.1.1 \
     --hash=sha256:d4a8021a7322e9910db88e7819335b32c276015ad5def6a2f63c429738f69f0f \
     --hash=sha256:e9447c335728dda12e404557fe6b683be8ecee8b470cc623bfcd55dcfcab7992 \
     --hash=sha256:f1d5d2be247524f36821a1696fc3dca1c3010552f0d39fdad0c1ab45338b5680
-    # via unstructured
+    # via learning-lab
 pikepdf==9.11.0 \
     --hash=sha256:2a7b3ca12af17e165c10bc500dbacefefbe78108cf8bc1db860f70fda0c399b2 \
     --hash=sha256:325055c2e27239e5d9ae3479e4ec2ce45f9f5fb80732be87e726ff5453e96fc1 \
@@ -1573,7 +1757,7 @@ pikepdf==9.11.0 \
     --hash=sha256:dbb550492e82e79056793d191838676dd01af849a27e5da7905797dac3d88a0b \
     --hash=sha256:f0b8280279d2229854df7f3c579d06926902d8b70649eb64ad9589f17e0bd352 \
     --hash=sha256:f42e5a69c32718b25da863ff3d408aa8bde677e19dbf8b05e6a12244f99c65f3
-    # via unstructured
+    # via learning-lab
 pillow==12.0.0 \
     --hash=sha256:0869154a2d0546545cde61d1789a6524319fc1897d9ee31218eae7a60ccc5643 \
     --hash=sha256:0b817e7035ea7f6b942c13aa03bb554fc44fea70838ea21f8eb31c638326584e \
@@ -1638,6 +1822,7 @@ pillow==12.0.0 \
     --hash=sha256:fa3ed2a29a9e9d2d488b4da81dcb54720ac3104a20bf0bd273f1e4648aff5af9 \
     --hash=sha256:fb3096c30df99fd01c7bf8e544f392103d0795b9f98ba71a8054bcbf56b255f1
     # via
+    #   learning-lab
     #   matplotlib
     #   pdf2image
     #   pi-heif
@@ -1647,11 +1832,15 @@ pillow==12.0.0 \
 platformdirs==4.5.0 \
     --hash=sha256:70ddccdd7c99fc5942e9fc25636a8b34d04c24b335100223152c2803e4063312 \
     --hash=sha256:e578a81bb873cbb89a41fcc904c7ef523cc18284b7e3b3ccf06aca1403b7ebd3
-    # via jupyter-core
+    # via
+    #   jupyter-core
+    #   learning-lab
 prompt-toolkit==3.0.52 \
     --hash=sha256:28cde192929c8e7321de85de1ddbe736f1375148b02f2e17edd840042b1be855 \
     --hash=sha256:9aac639a3bbd33284347de5ad8d68ecc044b91a762dc39b7c21095fcd6a19955
-    # via ipython
+    # via
+    #   ipython
+    #   learning-lab
 propcache==0.4.1 \
     --hash=sha256:0013cb6f8dde4b2a2f66903b8ba740bdfe378c943c4377a200551ceb27f379e4 \
     --hash=sha256:005f08e6a0529984491e37d8dbc3dd86f84bd78a8ceb5fa9a021f4c48d4984be \
@@ -1732,6 +1921,7 @@ propcache==0.4.1 \
     --hash=sha256:fd0858c20f078a32cf55f7e81473d96dcf3b93fd2ccdb3d40fdf54b8573df3af
     # via
     #   aiohttp
+    #   learning-lab
     #   yarl
 proto-plus==1.26.1 \
     --hash=sha256:13285478c2dcf2abb829db158e1047e2f1e8d63a077d94263c2b88b043c75a66 \
@@ -1739,6 +1929,7 @@ proto-plus==1.26.1 \
     # via
     #   google-api-core
     #   google-cloud-vision
+    #   learning-lab
 protobuf==6.33.0 \
     --hash=sha256:140303d5c8d2037730c548f8c7b93b20bb1dc301be280c378b82b8894589c954 \
     --hash=sha256:25c9e1963c6734448ea2d308cfa610e692b801304ba0908d7bfa564ac5132995 \
@@ -1753,6 +1944,7 @@ protobuf==6.33.0 \
     #   google-cloud-vision
     #   googleapis-common-protos
     #   grpcio-status
+    #   learning-lab
     #   onnx
     #   onnxruntime
     #   proto-plus
@@ -1769,25 +1961,33 @@ psutil==7.1.1 \
     # via
     #   accelerate
     #   ipykernel
+    #   learning-lab
     #   unstructured
 ptyprocess==0.7.0 ; sys_platform != 'emscripten' and sys_platform != 'win32' \
     --hash=sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35 \
     --hash=sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220
-    # via pexpect
+    # via
+    #   learning-lab
+    #   pexpect
 pure-eval==0.2.3 \
     --hash=sha256:1db8e35b67b3d218d818ae653e27f06c3aa420901fa7b081ca98cbedc874e0d0 \
     --hash=sha256:5f4e983f40564c576c7c8635ae88db5956bb2229d7e9237d03b3c0b0190eaf42
-    # via stack-data
+    # via
+    #   learning-lab
+    #   stack-data
 pyasn1==0.6.1 \
     --hash=sha256:0d632f46f2ba09143da3a8afe9e33fb6f92fa2320ab7e886e2d0f7672af84629 \
     --hash=sha256:6f580d2bdd84365380830acf45550f2511469f673cb4a5ae3857a3170128b034
     # via
+    #   learning-lab
     #   pyasn1-modules
     #   rsa
 pyasn1-modules==0.4.2 \
     --hash=sha256:29253a9207ce32b64c3ac6600edc75368f98473906e8fd1043bd6b5b1de2c14a \
     --hash=sha256:677091de870a80aae844b1ca6134f54652fa2c8c5a52aa396440ac3106e941e6
-    # via google-auth
+    # via
+    #   google-auth
+    #   learning-lab
 pycocotools==2.0.10 \
     --hash=sha256:075788c90bfa6a8989d628932854f3e32c25dac3c1bf7c1183cefad29aee16c8 \
     --hash=sha256:3e323b0ed7c15df34929b2d99ff720be8d6a35c58c7566e29559d9bebd2d09f6 \
@@ -1804,11 +2004,15 @@ pycocotools==2.0.10 \
     --hash=sha256:df7796ec8b9e32879028f929b77968039ca7ced7ecdad23147da55f144e753c8 \
     --hash=sha256:e1359f556986c8c4ac996bf8e473ff891d87630491357aaabd12601687af5edb \
     --hash=sha256:ffdbf8810f27b32c5c5c85d9cd65e8e066852fef9775e58a7b23abdffeaf8252
-    # via effdet
+    # via
+    #   effdet
+    #   learning-lab
 pycparser==2.23 ; (implementation_name != 'PyPy' and platform_python_implementation != 'PyPy') or (implementation_name == 'pypy' and platform_python_implementation == 'PyPy') \
     --hash=sha256:78816d4f24add8f10a06d6f05b4d424ad9e96cfebf68a4ddc99c65c0720d00c2 \
     --hash=sha256:e5c6e8d3fbad53479cab09ac03729e0a9faf2bee3db8208a550daf5af81a5934
-    # via cffi
+    # via
+    #   cffi
+    #   learning-lab
 pydantic==2.12.3 \
     --hash=sha256:1da1c82b0fc140bb0103bc1441ffe062154c8d38491189751ee00fd8ca65ce74 \
     --hash=sha256:6986454a854bc3bc6e5443e1369e06a3a456af9d339eda45510f517d9ea5c6bf
@@ -1818,6 +2022,7 @@ pydantic==2.12.3 \
     #   langchain-core
     #   langgraph
     #   langsmith
+    #   learning-lab
     #   pydantic-settings
     #   unstructured-client
 pydantic-core==2.41.4 \
@@ -1878,26 +2083,33 @@ pydantic-core==2.41.4 \
     --hash=sha256:f8e49c9c364a7edcbe2a310f12733aad95b022495ef2a8d653f645e5d20c1564 \
     --hash=sha256:f9672ab4d398e1b602feadcffcdd3af44d5f5e6ddc15bc7d15d376d47e8e19f8 \
     --hash=sha256:fc3b4cc4539e055cfa39a3763c939f9d409eb40e85813257dcd761985a108554
-    # via pydantic
+    # via
+    #   learning-lab
+    #   pydantic
 pydantic-settings==2.11.0 \
     --hash=sha256:d0e87a1c7d33593beb7194adb8470fc426e95ba02af83a0f23474a04c9a08180 \
     --hash=sha256:fe2cea3413b9530d10f3a5875adffb17ada5c1e1bab0b2885546d7310415207c
-    # via langchain-community
+    # via
+    #   langchain-community
+    #   learning-lab
 pygments==2.19.2 \
     --hash=sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887 \
     --hash=sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b
     # via
     #   ipython
     #   ipython-pygments-lexers
+    #   learning-lab
 pyparsing==3.2.5 \
     --hash=sha256:2df8d5b7b2802ef88e8d016a2eb9c7aeaa923529cd251ed0fe4608275d4105b6 \
     --hash=sha256:e38a4f02064cf41fe6593d328d0512495ad1f3d8a91c4f73fc401b3079a59a5e
-    # via matplotlib
+    # via
+    #   learning-lab
+    #   matplotlib
 pypdf==6.1.2 \
     --hash=sha256:207e465ee4ad078ad7c7384ea8c46bdbe9081f0081427f00d816a5ca6ccb2b1e \
     --hash=sha256:ba49efa39c9c5d14cb84efc4b7be75fca92d7ed1d1d74546db95c2dad99ed5d3
     # via
-    #   unstructured
+    #   learning-lab
     #   unstructured-client
 pypdfium2==4.30.0 \
     --hash=sha256:0dfa61421b5eb68e1188b0b2231e7ba35735aef2d867d86e48ee6cab6975195e \
@@ -1913,42 +2125,59 @@ pypdfium2==4.30.0 \
     --hash=sha256:ee2410f15d576d976c2ab2558c93d392a25fb9f6635e8dd0a8a3a5241b275e0e \
     --hash=sha256:f1f78d2189e0ddf9ac2b7a9b9bd4f0c66f54d1389ff6c17e9fd9dc034d06eb3f \
     --hash=sha256:f33bd79e7a09d5f7acca3b0b69ff6c8a488869a7fab48fdf400fec6e20b9c8be
-    # via unstructured-inference
+    # via
+    #   learning-lab
+    #   unstructured-inference
 pyreadline3==3.5.4 ; sys_platform == 'win32' \
     --hash=sha256:8d57d53039a1c75adba8e50dd3d992b28143480816187ea5efbd5c78e6c885b7 \
     --hash=sha256:eaf8e6cc3c49bcccf145fc6067ba8643d1df34d604a1ec0eccbf7a18e6d3fae6
-    # via humanfriendly
+    # via
+    #   humanfriendly
+    #   learning-lab
 python-dateutil==2.9.0.post0 \
     --hash=sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3 \
     --hash=sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427
     # via
     #   jupyter-client
+    #   learning-lab
     #   matplotlib
     #   pandas
 python-dotenv==1.1.1 \
     --hash=sha256:31f23644fe2602f88ff55e1f5c79ba497e01224ee7737937930c448e4d0e24dc \
     --hash=sha256:a8a6399716257f45be6a007360200409fce5cda2661e3dec71d23dc15f6189ab
-    # via pydantic-settings
+    # via
+    #   learning-lab
+    #   pydantic-settings
 python-iso639==2025.2.18 \
     --hash=sha256:34e31e8e76eb3fc839629e257b12bcfd957c6edcbd486bbf66ba5185d1f566e8 \
     --hash=sha256:b2d471c37483a26f19248458b20e7bd96492e15368b01053b540126bcc23152f
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 python-magic==0.4.27 \
     --hash=sha256:c1ba14b08e4a5f5c31a302b7721239695b2f0f058d125bd5ce1ee36b9d9d3c3b \
     --hash=sha256:c212960ad306f700aa0d01e5d7a325d20548ff97eb9920dcd29513174f0294d3
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 python-multipart==0.0.20 \
     --hash=sha256:8a62d3a8335e06589fe01f2a3e178cdcc632f3fbe0d492ad9ee0ec35aab1f104 \
     --hash=sha256:8dd0cab45b8e23064ae09147625994d090fa46f5b0d1e13af944c331a7fa9d13
-    # via unstructured-inference
+    # via
+    #   learning-lab
+    #   unstructured-inference
 python-oxmsg==0.0.2 \
     --hash=sha256:22be29b14c46016bcd05e34abddfd8e05ee82082f53b82753d115da3fc7d0355 \
     --hash=sha256:a6aff4deb1b5975d44d49dab1d9384089ffeec819e19c6940bc7ffbc84775fad
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 pytz==2025.2 \
     --hash=sha256:360b9e3dbb49a209c21ad61809c7fb453643e048b38924c765813546746e81c3 \
     --hash=sha256:5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00
-    # via pandas
+    # via
+    #   learning-lab
+    #   pandas
 pyyaml==6.0.3 \
     --hash=sha256:00c4bdeba853cc34e7dd471f16b4114f4162dc03e6b7afcc2128711f0eca823c \
     --hash=sha256:02893d100e99e03eda1c8fd5c441d8c60103fd175728e23e431db1b589cf5ab3 \
@@ -1995,6 +2224,7 @@ pyyaml==6.0.3 \
     #   langchain-classic
     #   langchain-community
     #   langchain-core
+    #   learning-lab
     #   omegaconf
     #   timm
     #   transformers
@@ -2035,6 +2265,7 @@ pyzmq==27.1.0 \
     # via
     #   ipykernel
     #   jupyter-client
+    #   learning-lab
 rapidfuzz==3.14.1 \
     --hash=sha256:01eab10ec90912d7d28b3f08f6c91adbaf93458a53f849ff70776ecd70dd7a7a \
     --hash=sha256:0591df2e856ad583644b40a2b99fb522f93543c65e64b771241dda6d1cfdc96b \
@@ -2093,6 +2324,7 @@ rapidfuzz==3.14.1 \
     --hash=sha256:fe2651258c1f1afa9b66f44bf82f639d5f83034f9804877a1bbbae2120539ad1 \
     --hash=sha256:fedd5097a44808dddf341466866e5c57a18a19a336565b4ff50aa8f09eb528f6
     # via
+    #   learning-lab
     #   unstructured
     #   unstructured-inference
 regex==2025.10.22 \
@@ -2168,6 +2400,7 @@ regex==2025.10.22 \
     --hash=sha256:fe200435c5f40efbfbc0591256f96c31e3709704906edc88817f631571682af6 \
     --hash=sha256:ffe59e0b0d93cf4999565236b5a36a7d22b10f5f7fed59f423bd5f7542453832
     # via
+    #   learning-lab
     #   nltk
     #   transformers
 requests==2.32.5 \
@@ -2179,6 +2412,7 @@ requests==2.32.5 \
     #   langchain-classic
     #   langchain-community
     #   langsmith
+    #   learning-lab
     #   requests-toolbelt
     #   transformers
     #   unstructured
@@ -2187,11 +2421,14 @@ requests-toolbelt==1.0.0 \
     --hash=sha256:cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06
     # via
     #   langsmith
+    #   learning-lab
     #   unstructured-client
 rsa==4.9.1 \
     --hash=sha256:68635866661c6836b8d39430f97a996acbd61bfa49406748ea243539fe239762 \
     --hash=sha256:e7bdbfdb5497da4c07dfd35530e1a902659db6ff241e39d9953cad06ebd0ae75
-    # via google-auth
+    # via
+    #   google-auth
+    #   learning-lab
 safetensors==0.6.2 \
     --hash=sha256:1d2d2b3ce1e2509c68932ca03ab8f20570920cd9754b05063d4368ee52833ecd \
     --hash=sha256:43ff2aa0e6fa2dc3ea5524ac7ad93a9839256b8703761e76e2d0b2a3fa4f15d9 \
@@ -2210,6 +2447,7 @@ safetensors==0.6.2 \
     --hash=sha256:fc4d0d0b937e04bdf2ae6f70cd3ad51328635fe0e6214aa1fc811f3b576b3bda
     # via
     #   accelerate
+    #   learning-lab
     #   timm
     #   transformers
 scipy==1.16.2 \
@@ -2264,26 +2502,35 @@ scipy==1.16.2 \
     --hash=sha256:fac4f8ce2ddb40e2e3d0f7ec36d2a1e7f92559a2471e59aec37bd8d9de01fec0 \
     --hash=sha256:fda714cf45ba43c9d3bae8f2585c777f64e3f89a2e073b668b32ede412d8f52c \
     --hash=sha256:ff4dc42bd321991fbf611c23fc35912d690f731c9914bf3af8f417e64aca0f21
-    # via unstructured-inference
+    # via
+    #   learning-lab
+    #   unstructured-inference
 setuptools==80.9.0 \
     --hash=sha256:062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922 \
     --hash=sha256:f36b47402ecde768dbfafc46e8e4207b4360c654f1f3bb84475f0a28628fb19c
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 six==1.17.0 \
     --hash=sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274 \
     --hash=sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81
     # via
     #   html5lib
     #   langdetect
+    #   learning-lab
     #   python-dateutil
 sniffio==1.3.1 \
     --hash=sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2 \
     --hash=sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc
-    # via anyio
+    # via
+    #   anyio
+    #   learning-lab
 soupsieve==2.8 \
     --hash=sha256:0cc76456a30e20f5d7f2e14a98a4ae2ee4e5abdc7c5ea0aafe795f344bc7984c \
     --hash=sha256:e2dd4a40a628cb5f28f6d4b0db8800b8f581b65bb380b97de22ba5ca8d72572f
-    # via beautifulsoup4
+    # via
+    #   beautifulsoup4
+    #   learning-lab
 sqlalchemy==2.0.44 \
     --hash=sha256:0765e318ee9179b3718c4fd7ba35c434f4dd20332fbc6857a5e8df17719c24d7 \
     --hash=sha256:0ae7454e1ab1d780aee69fd2aae7d6b8670a581d8847f2d1e0f7ddfbf47e5a22 \
@@ -2306,14 +2553,18 @@ sqlalchemy==2.0.44 \
     # via
     #   langchain-classic
     #   langchain-community
+    #   learning-lab
 stack-data==0.6.3 \
     --hash=sha256:836a778de4fec4dcd1dcd89ed8abff8a221f58308462e1c4aa2a3cf30148f0b9 \
     --hash=sha256:d5558e0c25a4cb0853cddad3d77da9891a08cb85dd9f9f91b9f8cd66e511e695
-    # via ipython
+    # via
+    #   ipython
+    #   learning-lab
 sympy==1.14.0 \
     --hash=sha256:d3d3fe8df1e5a0b42f0e7bdf50541697dbe7d23746e894990c030e2b05e72517 \
     --hash=sha256:e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5
     # via
+    #   learning-lab
     #   onnxruntime
     #   torch
 tenacity==9.1.2 \
@@ -2322,11 +2573,13 @@ tenacity==9.1.2 \
     # via
     #   langchain-community
     #   langchain-core
+    #   learning-lab
 timm==1.0.20 \
     --hash=sha256:7468d32a410c359181c1ef961f49c7e213286e0c342bfb898b99534a4221fc54 \
     --hash=sha256:f6e62f780358476691996c47aa49de87b95cc507edf923c3042f74a07e45b7fe
     # via
     #   effdet
+    #   learning-lab
     #   unstructured-inference
 tokenizers==0.22.1 \
     --hash=sha256:19d2962dd28bc67c1f205ab180578a78eef89ac60ca7ef7cbe9635a46a56422a \
@@ -2344,7 +2597,9 @@ tokenizers==0.22.1 \
     --hash=sha256:d1cbe5454c9a15df1b3443c726063d930c16f047a3cc724b9e6e1a91140e5a21 \
     --hash=sha256:e2ef6063d7a84994129732b47e7915e8710f27f99f3a3260b8a38fc7ccd083f4 \
     --hash=sha256:e7d094ae6312d69cc2a872b54b91b309f4f6fbce871ef28eb27b52a98e4d0214
-    # via transformers
+    # via
+    #   learning-lab
+    #   transformers
 torch==2.9.0 \
     --hash=sha256:01cff95ecd9a212ea2f141db28acccdceb6a4c54f64e6c51091146f5e2a772c6 \
     --hash=sha256:33f58e9a102a91259af289d50525c30323b5c9ae1d31322b6447c0814da68695 \
@@ -2369,6 +2624,7 @@ torch==2.9.0 \
     # via
     #   accelerate
     #   effdet
+    #   learning-lab
     #   timm
     #   torchvision
     #   unstructured-inference
@@ -2395,6 +2651,7 @@ torchvision==0.24.0 \
     --hash=sha256:fec12a269cf80f6b0b71471c8d498cd3bdd9d8e892c425bf39fecb604852c3b0
     # via
     #   effdet
+    #   learning-lab
     #   timm
 tornado==6.5.2 \
     --hash=sha256:06ceb1300fd70cb20e43b1ad8aaee0266e69e7ced38fa910ad2e03285009ce7c \
@@ -2412,6 +2669,7 @@ tornado==6.5.2 \
     # via
     #   ipykernel
     #   jupyter-client
+    #   learning-lab
 tqdm==4.67.1 \
     --hash=sha256:26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2 \
     --hash=sha256:f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2
@@ -2430,18 +2688,23 @@ traitlets==5.14.3 \
     #   ipywidgets
     #   jupyter-client
     #   jupyter-core
+    #   learning-lab
     #   matplotlib-inline
 transformers==4.57.1 \
     --hash=sha256:b10d05da8fa67dc41644dbbf9bc45a44cb86ae33da6f9295f5fbf5b7890bd267 \
     --hash=sha256:f06c837959196c75039809636cd964b959f6604b75b8eeec6fdfc0440b89cc55
-    # via unstructured-inference
+    # via
+    #   learning-lab
+    #   unstructured-inference
 triton==3.5.0 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:317fe477ea8fd4524a6a8c499fb0a36984a56d0b75bf9c9cb6133a1c56d5a6e7 \
     --hash=sha256:c83f2343e1a220a716c7b3ab9fccfcbe3ad4020d189549200e2d2e8d5868bed9 \
     --hash=sha256:c9e71db82261c4ffa3921cd050cd5faa18322d2d405c30eb56084afaff3b0833 \
     --hash=sha256:da0fa67ccd76c3dcfb0bffe1b1c57c685136a6bd33d141c24d9655d4185b1289 \
     --hash=sha256:e6bb9aa5519c084a333acdba443789e50012a4b851cd486c54f0b8dc2a8d3a12
-    # via torch
+    # via
+    #   learning-lab
+    #   torch
 typing-extensions==4.15.0 \
     --hash=sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466 \
     --hash=sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548
@@ -2452,6 +2715,7 @@ typing-extensions==4.15.0 \
     #   grpcio
     #   huggingface-hub
     #   langchain-core
+    #   learning-lab
     #   onnx
     #   pydantic
     #   pydantic-core
@@ -2464,17 +2728,22 @@ typing-extensions==4.15.0 \
 typing-inspect==0.9.0 \
     --hash=sha256:9ee6fc59062311ef8547596ab6b955e1b8aa46242d854bfc78f4f6b0eff35f9f \
     --hash=sha256:b23fc42ff6f6ef6954e4852c1fb512cdd18dbea03134f91f856a95ccc9461f78
-    # via dataclasses-json
+    # via
+    #   dataclasses-json
+    #   learning-lab
 typing-inspection==0.4.2 \
     --hash=sha256:4ed1cacbdc298c220f1bd249ed5287caa16f34d44ef4e9c3d0cbad5b521545e7 \
     --hash=sha256:ba561c48a67c5958007083d386c3295464928b01faa735ab8547c5692e87f464
     # via
+    #   learning-lab
     #   pydantic
     #   pydantic-settings
 tzdata==2025.2 \
     --hash=sha256:1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8 \
     --hash=sha256:b60a638fcc0daffadf82fe0f57e53d06bdec2f36c4df66280ae79bce6bd6f2b9
-    # via pandas
+    # via
+    #   learning-lab
+    #   pandas
 unstructured==0.18.15 \
     --hash=sha256:81d8481280a4ac5cefe74bdb6db3687e8f240d5643706f86728eac39549112b5 \
     --hash=sha256:f05b1defcbe8190319d30da8adddbb888f74bf8ec7f65886867d7dca41d67ad0
@@ -2482,31 +2751,41 @@ unstructured==0.18.15 \
 unstructured-client==0.42.3 \
     --hash=sha256:14e9a6a44ed58c64bacd32c62d71db19bf9c2f2b46a2401830a8dfff48249d39 \
     --hash=sha256:a568d8b281fafdf452647d874060cd0647e33e4a19e811b4db821eb1f3051163
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 unstructured-inference==1.0.5 \
     --hash=sha256:ccd6881b0f03c533418bde6c9bd178a6660da8efbbe8c06a08afda9f25fe732b \
     --hash=sha256:ecbe385a6c58ca6b68b5723ed3cb540b70fd6317eecd1d5e6541516edf7071d0
-    # via unstructured
+    # via learning-lab
 unstructured-pytesseract==0.3.15 \
     --hash=sha256:4b81bc76cfff4e2ef37b04863f0e48bd66184c0b39c3b2b4e017483bca1a7394 \
     --hash=sha256:a3f505c5efb7ff9f10379051a7dd6aa624b3be6b0f023ed6767cc80d0b1613d1
-    # via unstructured
+    # via learning-lab
 urllib3==2.5.0 \
     --hash=sha256:3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760 \
     --hash=sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc
-    # via requests
+    # via
+    #   learning-lab
+    #   requests
 wcwidth==0.2.14 \
     --hash=sha256:4d478375d31bc5395a3c55c40ccdf3354688364cd61c4f6adacaa9215d0b3605 \
     --hash=sha256:a7bb560c8aee30f9957e5f9895805edd20602f2d7f720186dfd906e82b4982e1
-    # via prompt-toolkit
+    # via
+    #   learning-lab
+    #   prompt-toolkit
 webencodings==0.5.1 \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
-    # via html5lib
+    # via
+    #   html5lib
+    #   learning-lab
 widgetsnbextension==4.0.14 \
     --hash=sha256:4875a9eaf72fbf5079dc372a51a9f268fc38d46f767cbf85c43a36da5cb9b575 \
     --hash=sha256:a3629b04e3edb893212df862038c7232f62973373869db5084aed739b437b5af
-    # via ipywidgets
+    # via
+    #   ipywidgets
+    #   learning-lab
 wrapt==2.0.0 \
     --hash=sha256:02482fb0df89857e35427dfb844319417e14fae05878f295ee43fa3bf3b15502 \
     --hash=sha256:04c7c8393f25b11c0faa5d907dd9eb462e87e4e7ba55e308a046d7ed37f4bbe2 \
@@ -2570,7 +2849,9 @@ wrapt==2.0.0 \
     --hash=sha256:f2c7b7fead096dbf1dcc455b7f59facb05de3f5bfb04f60a69f98cdfe6049e5f \
     --hash=sha256:f73318741b141223a4674ba96992aa2291b1b3f7a5e85cb3c2c964f86171eb45 \
     --hash=sha256:fe089d9f5a4a3dea0108a8ae34bced114d0c4cca417bada1c5e8f42d98af9050
-    # via unstructured
+    # via
+    #   learning-lab
+    #   unstructured
 xxhash==3.6.0 \
     --hash=sha256:01262da8798422d0685f7cef03b2bd3f4f46511b02830861df548d7def4402ad \
     --hash=sha256:01362c4331775398e7bb34e3ab403bc9ee9f7c497bc7dee6272114055277dd3c \
@@ -2648,7 +2929,9 @@ xxhash==3.6.0 \
     --hash=sha256:f22927652cba98c44639ffdc7aaf35828dccf679b10b31c4ad72a5b530a18eb7 \
     --hash=sha256:f7f99123f0e1194fa59cc69ad46dbae2e07becec5df50a0509a808f90a0f03f0 \
     --hash=sha256:fba27a198363a7ef87f8c0f6b171ec36b674fe9053742c58dd7e3201c1ab30ee
-    # via langgraph
+    # via
+    #   langgraph
+    #   learning-lab
 yarl==1.22.0 \
     --hash=sha256:01e73b85a5434f89fc4fe27dcda2aff08ddf35e4d47bbbea3bdcd25321af538a \
     --hash=sha256:078a8aefd263f4d4f923a9677b942b445a2be970ca24548a8102689a3a8ab8da \
@@ -2732,7 +3015,9 @@ yarl==1.22.0 \
     --hash=sha256:f6d2cb59377d99718913ad9a151030d6f83ef420a2b8f521d94609ecc106ee82 \
     --hash=sha256:f87ac53513d22240c7d59203f25cc3beac1e574c6cd681bbfd321987b69f95fd \
     --hash=sha256:ff86011bd159a9d2dfc89c34cfd8aff12875980e3bd6a39ff097887520e60249
-    # via aiohttp
+    # via
+    #   aiohttp
+    #   learning-lab
 zstandard==0.25.0 \
     --hash=sha256:011d388c76b11a0c165374ce660ce2c8efa8e5d87f34996aa80f9c0816698b64 \
     --hash=sha256:05df5136bc5a011f33cd25bc9f506e7426c0c9b3f9954f056831ce68f3b6689f \
@@ -2784,4 +3069,6 @@ zstandard==0.25.0 \
     --hash=sha256:f67e8f1a324a900e75b5e28ffb152bcac9fbed1cc7b43f99cd90f395c4375344 \
     --hash=sha256:fd7a5004eb1980d3cefe26b2685bcb0b17989901a70a1040d1ac86f1d898c551 \
     --hash=sha256:ffef5a74088f1e09947aecf91011136665152e0b4b359c42be3373897fb39b01
-    # via langsmith
+    # via
+    #   langsmith
+    #   learning-lab
