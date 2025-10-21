@@ -7,7 +7,8 @@ Learning-lab 是我的個人練習與實驗庫，用於存放各類程式、AI �
 
 | 資料夾 | 說明 |
 |--------|------|
-| **RAGQA-Eval DEMO** | 練習 Retrieval Augmented Generation (RAG) 系統的評估流程，包含資料、程式碼與簡單示範。 |
+| **RAGQA-Eval DEMO** | 練習 `Retrieval Augmented Generation (RAG)` 系統的評估流程，包含資料、程式碼與簡單示範。 |
+| **LangPDFDemo** | 使用 LangChain `UnstructuredPDFLoader` 處理 PDF 的練習，支援分類元素、打印文字段落與清單。 |
 | **施工中** | --- 施工中 --- |
 
-> ⚠️ 其他練習內容尚在整理中，將陸續上傳。
+> ⚠️ 其他練習內容尚在整理中，將陸續上傳。 
