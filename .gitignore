@@ -3,3 +3,5 @@ Test
 pyproject.toml
 uv.lock
 .venv
+PEFT-Capybara-Chat/Training.ipynb
+PEFT-Capybara-Chat/PEFT-Capybara-Chat-DEMO/
