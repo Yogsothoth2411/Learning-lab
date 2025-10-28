@@ -5,4 +5,4 @@ uv.lock
 .venv
 PEFT-Capybara-Chat/Training.ipynb
 PEFT-Capybara-Chat/PEFT-Capybara-Chat-DEMO/
-PEFT-OPT350M-Capybara-QLoRA
+PEFT-OPT350M-Capybara-LoRA/PEFT-OPT350M-Capybara-LoRA-Demo
