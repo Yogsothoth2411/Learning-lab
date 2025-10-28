@@ -65,4 +65,5 @@
 * [Hugging Face PEFT 官方文件](https://huggingface.co/docs/peft/index)
 * [TRL: Training Transformer Language Models](https://huggingface.co/docs/trl)
 * [Capybara Dataset](https://huggingface.co/datasets/trl-lib/Capybara)
+* [2255 SFT-v2](https://github.com/Heng-xiu/AUO-2255-post-training)
 
