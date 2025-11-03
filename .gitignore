@@ -6,3 +6,12 @@ uv.lock
 PEFT-Capybara-Chat/Training.ipynb
 PEFT-Capybara-Chat/PEFT-Capybara-Chat-DEMO/
 PEFT-OPT350M-Capybara-LoRA/PEFT-OPT350M-Capybara-LoRA-Demo
+.vscode
+Langchain1.0 DEMO/Quantization_demo.ipynb
+Langchain1.0 DEMO/llama-8b-fp16-onnx
+Langchain1.0 DEMO/llama-8b-int8-onnx
+docker-compose.yml
+Memory.ipynb
+Memory_2.ipynb
+Vetor_score.ipynb
+.env
