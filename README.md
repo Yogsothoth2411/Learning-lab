@@ -11,6 +11,7 @@ Learning-lab 是我的個人練習與實驗庫，用於存放各類程式、AI �
 | **LangPDFDemo** | 使用 LangChain `UnstructuredPDFLoader` 處理 PDF 的練習，支援分類元素、打印文字段落與清單。 |
 | **PEFT-Capybara-Chat** | 使用 PEFT (QLoRA) 微調 `Llama-3.1-8B-Instruct`，測試 Capybara dataset 的訓練與生成效果。 |
 | **PEFT-OPT350M-Capybara-Chat** | 使用LLM 有監督微調實驗 (Supervised Fine-Tuning, SFT) 與 PEFT微調 `facebook/opt-350m`，測試 Capybara dataset 的訓練與生成效果。 |
+| **LangChain 1.0 HITL 練習** | 練習使用 LangChain 1.0 建立 agent，探索 Human-in-the-Loop (HITL) 方法，包括工具呼叫控制、Context 與 middleware 使用 |
 | **施工中** | --- 施工中 --- |
 
 > ⚠️ 其他練習內容尚在整理中，將陸續上傳。 
